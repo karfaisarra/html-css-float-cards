@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header{
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .container{
     width: 70%;
@@ -15,4 +20,29 @@ header{
     content: "";
     display: table;
     clear: both;
+}
+img{
+    width: 30%;
+    padding-right:5px ;
+    float: left;
+    
+}
+h1{
+    color: #E53170;
+    padding-bottom: 1rem ;
+}
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+span{
+    color:#0093E7;
+    font-size: 15px;
 }
